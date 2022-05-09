@@ -1,0 +1,32 @@
+body {
+
+  padding: 20px;
+}
+
+.one {
+  height: 100px;
+  width: 30px;
+  background-color: green;
+}
+
+.zero {
+  height: 100px;
+  width: 40px;
+  background-color: red;
+  border-radius: 45%;
+}
+
+.box {
+  border: black solid 5px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  width: fit-content;
+}
+
+.number {
+  font-size: 100px;
+}
